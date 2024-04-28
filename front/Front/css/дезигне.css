@@ -1,0 +1,84 @@
+header {
+    background-color: #f1f1f1;
+    padding: 10px;
+    text-align: center;
+}
+.btn {
+    padding: 5px 10px;
+    margin: 0 5px;
+    background-color: #4CAF50;
+    color: white;
+    text-decoration: none;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+.btn1 {
+    padding: 7px 12px;
+    margin: 0 5px;
+    background-color: #20B2AA;
+    color: white;
+    text-decoration: none;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+.btn2 {
+    padding: 7px 12px;
+    margin: 0 5px;
+    background-color: #008B8B;
+    color: white;
+    text-decoration: none;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+.btnproof {
+    padding: 7px 12px;
+    margin: 0 5px;
+    background-color: #DC143C;
+    color: white;
+    text-decoration: none;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+.cald {
+    padding: 10px;
+    border: #FFFAFA;
+    border-radius: 20px;
+}
+.name {
+    padding: 10px;
+    text-align: center;
+}
+.calendar {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 1px;
+    width: 100vw;
+    height: 100vh;
+}
+.day {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    font-size: 20px;
+}
+.btnfooter {
+    padding: 5px 10px;
+    margin: 0 5px;
+    background-color: #FFFAFA;
+    color: black;
+    text-decoration: none;
+    border: none;
+    border-radius: 2px;
+    cursor: pointer;
+}
+footer {
+    background-color: #f1f1f1;
+    padding: 10px;
+    text-align: center;
+}
